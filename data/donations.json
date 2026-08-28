@@ -1,0 +1,62 @@
+{
+  "updatedAt": "2026-08-28",
+  "goal": 11000,
+  "raised": 4350,
+  "seatValue": 100,
+  "supporters": 72,
+  "campaign": {
+    "title": "Diamo luogo al pensiero",
+    "subtitle": "Ogni contributo accende uno spazio di pensiero gratuito per la città.",
+    "ctaLabel": "Sostieni Filosofarti 2027",
+    "ctaUrl": "https://www.filosofarti.it/sostienici/index.php"
+  },
+  "latestSupporters": [
+    "Maria R.",
+    "Studio Rossi",
+    "Anonimo",
+    "Famiglia Bianchi"
+  ],
+  "businessSupporters": [
+    "Impresa amica del territorio",
+    "Negozio del centro",
+    "Studio professionale"
+  ],
+  "questions": [
+    "Che cosa rende una città capace di pensare?",
+    "La cultura gratuita è un diritto o una responsabilità comune?",
+    "Quale spazio serve oggi alla riflessione?"
+  ],
+  "words": [
+    "tempo",
+    "cura",
+    "dialogo",
+    "bellezza",
+    "domanda",
+    "comunità",
+    "ascolto",
+    "scelta",
+    "futuro"
+  ],
+  "milestones": [
+    {
+      "amount": 2500,
+      "label": "Tessere numerate attive",
+      "description": "I sostenitori ricevono un numero progressivo di adesione."
+    },
+    {
+      "amount": 5000,
+      "label": "Muro del pensiero",
+      "description": "Le parole e le domande dei donatori entrano nell'installazione."
+    },
+    {
+      "amount": 8000,
+      "label": "Incontro dei sostenitori",
+      "description": "Presentazione riservata con direzione e volontari."
+    },
+    {
+      "amount": 11000,
+      "label": "Obiettivo raggiunto",
+      "description": "Il budget lordo della campagna è coperto."
+    }
+  ]
+}

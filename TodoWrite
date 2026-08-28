@@ -1,0 +1,8 @@
+Task: sito GitHub Pages per visualizzare la crescita delle donazioni Filosofarti 2027.
+
+- [x] Creare test per i calcoli da donations.json
+- [x] Implementare pagina statica con platea, progressi e esperienze di appartenenza
+- [x] Aggiungere file JSON modificabile per aggiornare lo stato
+- [x] Aggiungere istruzioni README per aggiornamento e pubblicazione GitHub Pages
+- [x] Validare test, render locale e layout responsive
+- [x] Commit atomico del lavoro

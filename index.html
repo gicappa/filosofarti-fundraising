@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Infografica aggiornata della raccolta fondi per Filosofarti 2027.">
+    <title>Filosofarti 2027 | Diamo luogo al pensiero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css">
+    <script type="module" src="src/app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="https://www.filosofarti.it/" aria-label="Vai al sito ufficiale Filosofarti">
+        <img src="https://www.filosofarti.it/img/logoNeroFilosofarti.svg" alt="Filosofarti">
+      </a>
+      <nav class="site-nav" aria-label="Sezioni della pagina">
+        <a href="#platea">Platea</a>
+        <a href="#appartenenza">Appartenenza</a>
+        <a href="#aggiorna">Aggiorna</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-content">
+          <p class="eyebrow">Filosofarti 2027</p>
+          <h1 id="page-title">Diamo luogo al pensiero</h1>
+          <p class="hero-copy" id="campaign-subtitle">
+            Ogni contributo accende uno spazio di pensiero gratuito per la città.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" id="campaign-cta" href="https://www.filosofarti.it/sostienici/index.php">Sostieni Filosofarti 2027</a>
+            <span class="updated-pill" id="updated-at">Aggiornato al --</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="progress-band" aria-label="Avanzamento raccolta">
+        <div class="metric">
+          <span class="metric-label">Raccolti</span>
+          <strong id="raised-amount">€ 0</strong>
+        </div>
+        <div class="progress-card">
+          <div class="progress-label">
+            <span>Obiettivo</span>
+            <strong id="goal-amount">€ 11.000</strong>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progress-fill"></span>
+          </div>
+          <p id="progress-summary">0% dell'obiettivo raggiunto.</p>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Sostenitori</span>
+          <strong id="supporters-count">0</strong>
+        </div>
+      </section>
+
+      <section class="section" id="platea" aria-labelledby="platea-title">
+        <div class="section-heading">
+          <p class="eyebrow">Posto simbolico</p>
+          <h2 id="platea-title">La platea che si accende</h2>
+          <p>Ogni posto rappresenta 100 euro raccolti: non e un biglietto, ma una quota simbolica che rende possibile il festival.</p>
+        </div>
+        <div class="auditorium-shell">
+          <div class="stage">Filosofarti 2027</div>
+          <div class="auditorium" id="auditorium" aria-label="Posti simbolici accesi"></div>
+        </div>
+      </section>
+
+      <section class="section belonging" id="appartenenza" aria-labelledby="belonging-title">
+        <div class="section-heading">
+          <p class="eyebrow">Esperienze di appartenenza</p>
+          <h2 id="belonging-title">Chi dona entra nel racconto</h2>
+        </div>
+        <div class="belonging-grid">
+          <article class="experience-card highlight">
+            <span class="card-number" id="symbolic-seats">0</span>
+            <h3>Posti del pensiero accesi</h3>
+            <p>La platea rende visibile la crescita della raccolta, passo dopo passo.</p>
+          </article>
+          <article class="experience-card">
+            <span class="card-number" id="supporter-number">0</span>
+            <h3>Tessera numerata</h3>
+            <p>Ogni sostenitore riceve un numero progressivo: aderire presto diventa parte della storia.</p>
+          </article>
+          <article class="experience-card word-wall">
+            <h3>Libro e Muro del pensiero</h3>
+            <div id="word-wall" aria-label="Parole dei sostenitori"></div>
+          </article>
+          <article class="experience-card questions">
+            <h3>Adotta una domanda</h3>
+            <ol id="questions-list"></ol>
+          </article>
+        </div>
+      </section>
+
+      <section class="section two-columns" aria-label="Sostenitori e traguardi">
+        <article class="panel">
+          <h2>Ultime adesioni</h2>
+          <ul class="supporters-list" id="latest-supporters"></ul>
+          <h3>Vetrine sostenitrici</h3>
+          <ul class="supporters-list compact" id="business-supporters"></ul>
+        </article>
+        <article class="panel">
+          <h2>Traguardi</h2>
+          <ol class="milestones" id="milestones"></ol>
+        </article>
+      </section>
+
+      <section class="update-note" id="aggiorna" aria-labelledby="update-title">
+        <div>
+          <p class="eyebrow">Aggiornamento semplice</p>
+          <h2 id="update-title">Modifica un solo file</h2>
+        </div>
+        <p>
+          Per aggiornare importi, domande, sostenitori e parole del muro basta modificare
+          <code>data/donations.json</code>. La pagina ricalcola automaticamente percentuale,
+          posti simbolici e traguardi raggiunti.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
