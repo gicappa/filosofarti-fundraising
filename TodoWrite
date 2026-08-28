@@ -6,3 +6,10 @@ Task: sito GitHub Pages per visualizzare la crescita delle donazioni Filosofarti
 - [x] Aggiungere istruzioni README per aggiornamento e pubblicazione GitHub Pages
 - [x] Validare test, render locale e layout responsive
 - [x] Commit atomico del lavoro
+
+Task: migliorare la disposizione delle esperienze di appartenenza.
+
+- [x] Spostare "Adotta una domanda" al posto del Muro del pensiero
+- [x] Rendere il Muro del pensiero una sezione a tutta larghezza
+- [x] Validare test e layout responsive
+- [x] Commit atomico del lavoro
